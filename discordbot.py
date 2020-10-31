@@ -5,8 +5,6 @@ import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
-
-@bot.event
 tenple = "テンプレートはこちらです。\n\n【名前】\n【年齢】\n【住み】\n【趣味】\n【一言】"
 
 if message.channel.id in [772085784442044426]:
